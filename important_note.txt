@@ -1,0 +1,4 @@
+Những câu lệnh để chạy project MovieGeek
+- python populate_moviegeek.py
+- python populate_ratings.py
+- python manage.py runserver 127.0.0.1:8000
