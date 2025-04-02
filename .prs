@@ -1,0 +1,10 @@
+{"themoviedb_apikey": "e9e9d8da18ae29fc430845952232787c",
+"home": "https://api.themoviedb.org/3/movie/now_playing?api_key=e9e9d8da18ae29fc430845952232787c&language=en-US&page=1",
+"film": "https://api.themoviedb.org/3/genre/movie/list?api_key=e9e9d8da18ae29fc430845952232787c&language=en-US",
+"tvshow": "https://api.themoviedb.org/3/genre/tv/list?api_key=e9e9d8da18ae29fc430845952232787c&language=en-US",
+"keyword": "https://api.themoviedb.org/3/search/keyword?api_key=e9e9d8da18ae29fc430845952232787c&page=1&query=women",
+"details": "https://api.themoviedb.org/3/movie/297762?api_key=e9e9d8da18ae29fc430845952232787c&append_to_response=videos",
+"review": "https://api.themoviedb.org/3/movie/297762/reviews?api_key=e9e9d8da18ae29fc430845952232787c",
+"list_film": "https://api.themoviedb.org/3/movie/297762/similar?api_key=e9e9d8da18ae29fc430845952232787c&language=en-US&page=1",
+"list_actor": "http://api.themoviedb.org/3/movie/297762/casts?api_key=e9e9d8da18ae29fc430845952232787c"
+}
