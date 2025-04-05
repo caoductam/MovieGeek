@@ -80,5 +80,30 @@
     <script>
 
     </script>
+    <script type="text/javascript">
+        var userid = {{ user_id }};
+        console.log("User ID:", userid);
+        
+        
+     // Gửi user_id đến server (Django) thông qua AJAX (sử dụng fetch)
+     fetch('/insert_userid/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'  // Đảm bảo sử dụng CSRF token trong Django
+        },
+        body: JSON.stringify({
+            user_id: userid
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Insert successful:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+    </script>
+    
 </body>
 </html>
